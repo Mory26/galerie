@@ -1,0 +1,59 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: serif;
+  background: whitesmoke;
+}
+
+.container {
+  max-width: 84rem;
+  margin: 0 auto;
+}
+
+.galerieContainer {
+  display: grid;
+  grid:
+    "galerieItem-1 galerieItem-1 galerieItem-1 galerieItem-2 " 25rem
+    "galerieItem-5 galerieItem-6 galerieItem-6 galerieItem-7" 22rem
+    "galerieItem-3 galerieItem-3 galerieItem-4 galerieItem-4" 25rem;
+}
+
+.galerieItem-1 {
+  grid-area: galerieItem-1;
+}
+
+.galerieItem-2 {
+  grid-area: galerieItem-2;
+}
+
+.galerieItem-3 {
+  grid-area: galerieItem-3;
+}
+
+.galerieItem-4 {
+  grid-area: galerieItem-4;
+}
+
+.galerieItem-5 {
+  grid-area: galerieItem-5;
+}
+
+.galerieItem-6 {
+  grid-area: galerieItem-6;
+}
+
+.galerieItem-7 {
+  grid-area: galerieItem-7;
+}
+
+.galerieImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

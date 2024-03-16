@@ -1,0 +1,34 @@
+/** ORDINATEUR */
+@media (width <= 68em) {
+  .galerieContainer {
+    grid:
+      "galerieItem-2 galerieItem-1 galerieItem-1"
+      "galerieItem-4 galerieItem-3 galerieItem-5"
+      "galerieItem-7 galerieItem-7 galerieItem-6";
+  }
+}
+
+/** TABLETE */
+@media (width <= 48em) {
+  .galerieContainer {
+    grid:
+      "galerieItem-1 galerieItem-2 "
+      "galerieItem-3 galerieItem-4"
+      "galerieItem-7 galerieItem-7"
+      "galerieItem-5 galerieItem-6";
+  }
+}
+
+/** MOBILE */
+@media (width <= 36em) {
+  .galerieContainer {
+    grid:
+      "galerieItem-2"
+      "galerieItem-1"
+      "galerieItem-3"
+      "galerieItem-4"
+      "galerieItem-5"
+      "galerieItem-7"
+      "galerieItem-6";
+  }
+}
